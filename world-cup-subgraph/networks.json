@@ -1,0 +1,8 @@
+{
+  "goerli": {
+    "WorldCup": {
+      "address": "0xC5409eAed9d2Fb0FFfA9691b33Aa29f2c155FEFF",
+      "startBlock": 0
+    }
+  }
+}
