@@ -37,7 +37,7 @@ function saveFrontendFiles(
     fs.mkdirSync(contractsAddressDir);
   }
 
-  const path = contractsAddressDir + name + ".json";
+  const path = contractsAddressDir + "/" + name + ".json";
 
   fs.writeFileSync(path, JSON.stringify(_contractInfos, null, 2));
 }
